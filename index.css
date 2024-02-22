@@ -1,0 +1,85 @@
+/*https://fonts.cdnfonts.com/css/cursed-timer-ulil"*/
+/*'Cursed Timer ULiL', sans-serif;*/
+
+@font-face {
+      font-family: 'CursedTimerUtil';
+      src: url('CursedTimerUlil-Aznm.ttf'); /*format('truetype');*/
+}
+
+@keyframes fedeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+body {
+    background-color: #231942; /*#0d1b2a*/
+    color: #EEEEEE;
+    text-align: center;
+    /* padding: 0px 30px 100px 30px; */
+    border: 5px solid white;
+    border-radius: 10px;
+}
+
+.container {
+    width: 650px;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items:flex-start;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+}
+
+#header {
+    margin: 20px 0 10px 0;
+}
+
+.points {
+    margin-top: 0;
+    margin: 0 0 10px 0;
+    color: #F94F6D;
+    background-color: #080001;
+    text-align: center;
+    padding: 10px 45px;
+    border-radius: 5px;
+    font-size: 70px;
+    font-family: "CursedTimerUtil";
+}
+
+#pointsHome {
+    padding: 10px 55px;
+}
+
+button {
+    background-color: #0d1b2a; /*#0d1b2a;*/
+    color: #9AABD8;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px;
+    font-family: "CursedTimerUtil";
+    margin: 0;
+}
+
+#newgame-btn {
+    margin: 209px auto;
+    /* padding: 10px 5px; */
+    padding-bottom: 5px;
+    text-align: center; 
+}
+
+.leader {
+    border: 5px dotted #F4D35E; /* Example: gold border */
+    background-color: #345995; /* Example: different background color */
+    animation: fedeIn 0.2s ease-out;
+    transition: background-color 0.1s ease, transform 0.3s ease;
+    padding: 10px;
+    /* color: #82c0cc; */
+    text-shadow: 0 0 1px #080001;
+    margin: initial;
+}
+
