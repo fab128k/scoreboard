@@ -56,12 +56,14 @@ body {
     max-width: 90px;
     text-align: center;
     margin: auto auto;
+    shape-margin: inherit;
 }
 
 #pointsHome {
     padding: 10px 55px;
     max-width: 90px;
     margin: auto auto;
+    shape-margin: inherit;
 }
 
 button {
