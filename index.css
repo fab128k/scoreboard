@@ -52,16 +52,11 @@ body {
     font-family: "CursedTimerUtil";
 }
 
-#pointsGuest {
-    max-width: 90px;
-    text-align: center;
-    margin: auto auto;
-    shape-margin: inherit;
-}
-
-#pointsHome {
+#pointsGuest,
+#pointsHome  {
     padding: 10px 55px;
     max-width: 90px;
+    text-align: center;
     margin: auto auto;
     shape-margin: inherit;
 }
